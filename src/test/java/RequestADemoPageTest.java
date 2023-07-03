@@ -44,11 +44,10 @@ public class RequestADemoPageTest extends UseCaseBase {
         requestADemoPage.companyNameInput();
         requestADemoPage.jobTitleInput();
         requestADemoPage.chooseCompanyTypeDropbox();
-        requestADemoPage.chooseCompanySizeDropbox();
         requestADemoPage.chooseCountryDropbox();
         requestADemoPage.chooseProvinceDropbox();
-        requestADemoPage.clickOnAgreementCheckBox();
         requestADemoPage.clickOnSubmitButton();
+        requestADemoPage.takeScreenshot("request a demo page incomplete filling errors");
     }
 
 
